@@ -23,12 +23,20 @@ DB_USERNAME=root
 DB_PASSWORD=123456
 ```
 
-4 - Crie o Secret JWT
+4 - Rodar o migration
+
+```sh
+$ cd pasta_do_projeto
+$ php artisan migrate
+```
+
+5 - Crie o Secret JWT
 
 ```sh
 $ cd pasta_do_projeto
 $ php artisan jwt:secret
 ```
+
 Testando
 -------
 1 - Rodando o projeto
